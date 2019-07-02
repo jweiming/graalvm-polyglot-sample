@@ -1,7 +1,7 @@
 import org.graalvm.polyglot.*;
 import org.graalvm.polyglot.proxy.*;
 
-public class PolyglotAbs {
+public class polyglotAbs {
 
     // Embedding JavaScript
     public static void jsAbs(int input){
