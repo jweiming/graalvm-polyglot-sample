@@ -24,7 +24,6 @@ public class polyglotAbs {
     // Embedding Ruby
     public static void rbAbs(int input){
        try (Context context = Context.create("ruby")){
-           Value rbBindings = context.getBindings("ruby");
            context.eval("ruby", "puts 'running abs in Ruby!'");
            context.eval("ruby", "puts " + input + ".abs");
        }
